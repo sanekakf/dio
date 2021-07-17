@@ -61,7 +61,7 @@ class muda(commands.Cog):
                     else:
                         embed=discord.Embed(
                             title=f'{ctx.author.name} произвел атаку на {member.name} используя камень',
-                            description=f'Хп {member.n_money} теперь {n_health}'
+                            description=f'Хп {member.name} теперь {n_health}'
                         )
                     await ctx.send(embed=embed)
                     x=cur.execute('SELECT money FROM player WHERE userId LIKE ?', (ctx.author.id,))
