@@ -1,0 +1,4 @@
+discord==1.7.3
+discord_components==1.1.4
+discord-py-buttons==1.1.1
+beautifulsoup4==4.9.3
